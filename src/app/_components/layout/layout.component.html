@@ -1,0 +1,15 @@
+<app-header></app-header>
+<div class="content">
+    <div class="sidebar">
+    <ul>
+        <li [routerLink]="'profile'">
+            <span>Profile</span>
+        </li>
+        <li [routerLink]="'setting'">
+            <span>Setting</span>
+        </li>
+    </ul>
+    </div>
+    <router-outlet></router-outlet>
+</div>
+<app-footer></app-footer>
